@@ -6,8 +6,9 @@
 	<link rel="stylesheet" href="bonus_one.css">
 </head>
 <body>
-	<h1 class="h1">Predictive Search</h1>
-
+	<div class ="top-header">
+		<h1 class="h1">Predictive Search</h1>
+	</div>
 	<div class="flexsearch">
 		<div class="flexsearch-wrapper">
 			<!-- You'll handle the form with js, so no need for method and action -->
@@ -15,8 +16,11 @@
 				<div class="flexsearch-input-wrapper">
 					<input class="flexsearch-input" type="search" placeholder="search">
 				</div>
-				<input class="flexsearch-submit" type="submit" value="&#10140;"/>
+				<input id = "submit" class="flexsearch-submit" type="submit" value="&#10140;" onsubmit="redirect()"/>
+				<div class="flexsearch-suggestion" id="suggestion">
+				</div>
 			</form>
+			
 		</div>
 	</div>
 

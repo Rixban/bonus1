@@ -47,6 +47,7 @@
   font-size: 26px;
   -webkit-appearance: none;
   -moz-appearance: none;
+  background-color: #CCCCFF;
 }
 
 .flexsearch-submit {
@@ -64,6 +65,7 @@
   font-family: 'Helvetica', sans-serif;
   font-size: 40px;
   line-height: 60px;
+  background-color: #CCCCFF;
 }
 
 .flexsearch-input:focus {
@@ -78,6 +80,7 @@
 .flexsearch-submit:hover {
   color: #333;
   cursor: pointer;
+  
 }
 
 ::-webkit-input-placeholder {
@@ -89,10 +92,44 @@ input:-moz-placeholder {
 }
 
 .h1 {
-  color: #333;
+  color: #B1F2F2;
   font-family: 'Helvetica', sans-serif;
   font-size: 45px;
   font-weight: bold;
   line-height: 45px;
   text-align: center;
+	background-color: #330033;
+	padding: 0 15px 0 20px; 
+}
+
+.flexsearch-suggestion{
+	border-color: #888;
+  border-radius: 35px;
+  border-style: solid;
+  border-width: 5px;
+  
+}
+ul{
+	-webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 60px;
+  width: 100%;
+  padding: 0 20px 0 10px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+ul:hover { 
+    background-color: gray;
+}
+
+.top-header{
+	background-color: #330033;
+	padding: 30px 15px 25px 20px; 
+}
+body{
+	background-color: #CCCCFF;
 }
